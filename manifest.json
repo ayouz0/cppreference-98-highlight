@@ -4,7 +4,7 @@
     "version": "1.1",
     "description": "Highlights C++98 safe functions and dims C++11+ ones.",
     "icons": {
-       "48": "icon.png"
+       "48": "logo.png"
     },
     "content_scripts": [
       {
@@ -19,7 +19,10 @@
     "browser_specific_settings": {
       "gecko": {
         "id": "cppreference-made-better@myextension",
-        "strict_min_version": "109.0"
+        "strict_min_version": "109.0",
+        "data_collection_permissions": {
+            "required": ["none"]
+        }
       }
     }
 }
